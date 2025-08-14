@@ -1,0 +1,29 @@
+body{
+    background-color:rgb(161, 66, 82);
+    background-image:url("images/bg.jpg");
+    background-size:cover;
+}
+
+h1{
+    color:red;
+}
+
+.head1{
+    color:green;
+    text-align:center;
+    background-color:black;
+    width:50%;
+    border-top:5px solid red;
+    padding:100px;
+    margin:100px;
+}
+
+p{
+    color:white;
+    font-weight : bold;
+    font-size : 30px;
+    text-decoration : underline;
+    font-style : italic;
+    font-family : Arial;
+    text-align:center;
+}
