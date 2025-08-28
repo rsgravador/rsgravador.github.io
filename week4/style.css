@@ -1,0 +1,55 @@
+
+.div1 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(83, 12, 83);
+}
+.div2 {
+    height: 100px;
+    width: 100px;
+    background-color:rgb(148, 68, 148);
+}
+.div3 {
+    height: 100px;
+    width: 100px;
+    background-color:rgb(212, 71, 95);
+}
+
+.wrapper{
+    display:flex;
+}
+
+.div4 {
+    height: 100px;
+    width: 200px;
+    background-color: rgb(219, 109, 19);
+}
+.div5 {
+    height: 100px;
+    width: 100px;
+    background-color:rgb(168, 74, 12);
+}
+.wrapper{
+    display:flex;
+}
+.div6 {
+    height: 100px;
+    width: 200px;
+    background-color: rgb(211, 41, 64);
+}
+.div7 {
+    height: 50px;
+    width: 100px;
+    background-color:rgb(224, 35, 161);
+}
+.div8 {
+    height: 50px;
+    width: 100px;
+    background-color:rgb(207, 32, 90);
+}
+.wrapper {
+    display:flex;
+}
+
+
+
