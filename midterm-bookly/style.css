@@ -1,0 +1,194 @@
+body {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+  color: #333;
+  margin-left: 15px;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+  color: #f86d72;
+}
+
+.book-image {
+  max-height: 400px;
+  object-fit: contain;
+}
+
+.hero {
+  background: url('images/banner-image-bg.jpg');
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+.promo-section {
+  background: linear-gradient(to right, #fce1e2, #e0f1f1);
+  padding: 60px 0;
+}
+
+.features {
+  background-color: #fff;
+}
+
+.features h5 {
+  color: #222;
+  margin-bottom: 8px;
+  max-width: 150px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.features p {
+  color: #666;
+  font-size: 0.95rem;
+  max-width: 150px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.best-selling-items {
+  background-color: #fff;
+}
+
+.book-card {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  background-color: #fff;
+}
+
+.book-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+.book-card img {
+  height: 220px;
+  object-fit: contain;
+}
+
+.book-card h6 {
+  font-size: 1rem;
+  color: #111;
+}
+
+.book-card p {
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+
+.discount-section {
+  background:url('images/banner-image-bg-1.jpg');
+  padding: 80px 0;
+}
+
+.featured-latest .card {
+  border-radius: 15px;
+}
+
+.featured-latest img {
+  border-radius: 0;
+  vertical-align: middle;
+}
+
+.featured-latest ul li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.featured-latest h6 {
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+.featured-latest small {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+
+.btn-accent {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 12px 40px;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-accent:hover {
+  background-color: #ff4c4c;
+  transform: scale(1.05);
+}
+
+.categories h3 {
+  color: #222;
+  margin-bottom: 1.5rem;
+}
+
+.category-card {
+  overflow: hidden;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.category-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.category-badge {
+  position: absolute;
+  bottom: 12px;
+  left: 15px;
+  background-color: #f86d72;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+footer h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+footer a {
+  color: #313131;
+  text-decoration: underline;
+}
+
+footer ul li a {
+  font-size: 0.9rem;
+  color: #555;
+  font-weight: 400;
+  line-height: 1.6;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  color: #f86d72;
+}
